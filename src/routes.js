@@ -19,11 +19,6 @@ const routes = [
   },
   {
     method: 'GET',
-    path: '/notes',
-    handler: () => {},
-  },
-  {
-    method: 'GET',
     path: '/notes/{id}',
     handler: getNoteByIdHandler,
   },
